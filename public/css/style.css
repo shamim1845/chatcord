@@ -198,12 +198,42 @@ a {
 	width: 100%;
 }
 
-@media (max-width: 700px) {
-	.chat-main {
-		display: block;
+
+@media(max-width: 550px) {
+	body{
+		margin: 30px 0px;
+		
+	}
+	.chat-sidebar{
+		padding: 0 5px;
+	
+	}
+	.chat-messages { 
+		padding: 5px;
+	
+	}
+	.chat-sidebar h2 {
+		font-size: 15px;
+		background: rgba(0, 0, 0, 0.1);
+		padding: 0px;
+		margin-bottom: 20px;
+	}
+	.chat-sidebar h3 {
+		font-size: 16px;
+	}
+	
+}
+
+@media(max-width: 370px) {
+	.chat-form-container form {
+		flex-direction: column;
 	}
 
-	.chat-sidebar {
-		display: none;
+	.chat-header h1 {
+			font-size: 25px
+	}
+
+	.chat-header .btn {
+			padding: 5px;
 	}
 }
