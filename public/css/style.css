@@ -210,7 +210,7 @@ a {
 	}
 	.chat-messages { 
 		padding: 5px;
-	
+		
 	}
 	.chat-sidebar h2 {
 		font-size: 15px;
@@ -225,8 +225,21 @@ a {
 }
 
 @media(max-width: 370px) {
+	.chat-container{
+		height: 100vh;
+	}
+	.chat-header{
+
+	}
+	.chat-main{
+height: 70%;
+	}
+	.chat-form-container{
+
+	}
 	.chat-form-container form {
 		flex-direction: column;
+		gap: 1px;
 	}
 
 	.chat-header h1 {

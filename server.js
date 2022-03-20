@@ -69,6 +69,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(process.env.PORT, () => {
+server.listen( process.env.PORT5000 || 5000, () => {
   console.log("Server is running on port:", 5000);
 });
