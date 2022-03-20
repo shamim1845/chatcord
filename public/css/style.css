@@ -225,8 +225,12 @@ a {
 }
 
 @media(max-width: 370px) {
+	body{
+		margin: 0px;
+	}
 	.chat-container{
 		height: 100vh;
+		margin: 0;
 	}
 	.chat-header{
 
